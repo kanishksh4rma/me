@@ -1,0 +1,116 @@
+
+*{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background:url("./assets/0064_small.gif");
+    /* background-size: cover; */
+}
+h2{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.6rem;
+    color: rgba(207, 19, 19, 0.74);
+    padding: 0.5% 0;
+}
+
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100vw;
+height: auto;
+
+}
+.main h3{
+    margin-top: 3%;
+    margin-left: 1%;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 1.2rem;
+        font-weight: 800;
+        /* padding: 0.5% 0; */
+        text-align: left;
+        /* margin-left: 5%; */
+    
+}
+
+.heading{
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#heading-gif{
+    justify-content: center;
+}
+.movie-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.movie-poster{
+   /* background-color: rgb(19,25,98);*/
+   width: 65%;
+   height: 65%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+}
+.movie-poster img{
+    width: 65%;
+    height: 65%;
+}
+.music-row{
+    
+    width: 60%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    box-shadow: none;
+}
+.main{
+    text-align: center;
+    width: 100vw;
+    
+}
+a{
+    
+    text-decoration: underline;
+    margin-top: 8%;
+    font-size: 1.3rem;
+/* color: rgb(172, 3, 172); */
+color: white    ;
+text-shadow: violet;
+font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    .main{
+        padding: 5% 0%;
+    }
+    a{
+        margin-top: 86%;
+font-size: 1rem;
+    }
+     .music-row{
+            flex-direction: column;
+            width: 80%;
+    height: 80%;
+        }
+        img {width: 100%;}
+        
+    }

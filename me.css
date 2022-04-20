@@ -1,0 +1,65 @@
+@font-face {
+    font-family:"pixel-font";
+    src: url("ARCADECLASSIC.TTF") format("truetype");
+  }
+
+*{
+    margin: 0;  
+    color: white;  
+    font-weight: bold;
+        padding: 0;
+
+       
+}
+h2{
+    font-family:"pixel-font";
+    font-size: 1rem;
+    padding: 0.5% 0;
+    /* font-family: 'JetBrains Mono', monospace; */
+}
+body{
+    padding: 5% 5%;
+    background: url("./assets/tape-purple-bg.gif") ;
+        text-align: center;
+        background-size: cover;
+    
+    font-size: 0.9rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+text-align: left;
+}
+.box{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+width: 100%;
+height: auto;
+text-align: left;
+gap: 1rem;
+margin-top: 3%;
+}
+#chain {
+width: 30%;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+pre{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    
+        body{font-size: 0.5rem;}
+        
+    }
